@@ -1,7 +1,9 @@
 import { useAccordionContext } from "./Accordian";
+import { useAccordionItemContext } from "./AccordionItem";
 
-export default function AccordionContent({ children, className, id }) {
+export default function AccordionContent({ children, className }) {
   const { openItemId } = useAccordionContext();
+  const id = useAccordionItemContext();
 
   const isOpen = openItemId === id;
 

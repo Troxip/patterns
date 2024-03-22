@@ -8,10 +8,10 @@ function App() {
         <h2>Why work with us?</h2>
         <Accordion className="accordion">
           <Accordion.Item id="1" className="accordion-item">
-            <Accordion.Title className="accordion-item-title" id="1">
+            <Accordion.Title className="accordion-item-title">
               We got 20 years of experience
             </Accordion.Title>
-            <AccordionContent id="1" className="accordion-item-content">
+            <AccordionContent className="accordion-item-content">
               <article>
                 <p>You can't go wrong with us</p>
                 <p>
@@ -21,11 +21,11 @@ function App() {
               </article>
             </AccordionContent>
           </Accordion.Item>
-          <Accordion.Item className="accordion-item">
-            <Accordion.Title className="accordion-item-title" id="2">
+          <Accordion.Item id="2" className="accordion-item">
+            <Accordion.Title className="accordion-item-title">
               Test
             </Accordion.Title>
-            <AccordionContent id="2" className="accordion-item-content">
+            <AccordionContent className="accordion-item-content">
               <article>
                 <p>Test</p>
                 <p>
